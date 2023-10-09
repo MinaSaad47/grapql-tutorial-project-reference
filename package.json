@@ -1,0 +1,17 @@
+{
+  "name": "graphql-tutorial-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "ts-node-dev --watch server/src --respawn server/src/app.ts",
+    "dev:client": "vite client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
